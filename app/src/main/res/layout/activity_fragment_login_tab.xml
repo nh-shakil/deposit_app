@@ -69,7 +69,6 @@
                 android:textSize="18sp"
                 android:text="Signup"
                 app:cornerRadius = "30dp"/>
-
         </LinearLayout>
 
     </LinearLayout>
