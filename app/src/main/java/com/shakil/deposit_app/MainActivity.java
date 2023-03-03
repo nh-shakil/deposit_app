@@ -11,7 +11,7 @@ import android.widget.ImageView;
 public class MainActivity extends AppCompatActivity {
 
     CardView card1,card2,card3,card4,card5,card6;
-    CardView profile;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,16 +24,6 @@ public class MainActivity extends AppCompatActivity {
         card4 = findViewById(R.id.card4);
         card5 = findViewById(R.id.card5);
         card6 = findViewById(R.id.card6);
-        profile = findViewById(R.id.profile);
-
-
-        profile.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                        Intent intent = new Intent(MainActivity.this, profile.class);
-                        startActivity(intent);
-                    }
-                });
 
         card1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -82,8 +72,5 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
-
-
     }
 }

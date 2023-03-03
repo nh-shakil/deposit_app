@@ -13,7 +13,7 @@ public class login extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_fragment_login_tab);
+        setContentView(R.layout.activity_login);
 
         signup_button = findViewById(R.id.signup_button);
 
