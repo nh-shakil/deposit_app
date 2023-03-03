@@ -28,6 +28,8 @@
            <TextView
                android:layout_width="match_parent"
                android:layout_height="wrap_content"
+               android:gravity="center"
+               android:fontFamily="@font/bloggersans2"
                android:text="Deposit Limit Upor 500 BDT Minimum Deposit 1250 BDT Deposit fee 0%"
                android:textSize="20sp"
                android:layout_marginTop="170dp"
@@ -40,6 +42,7 @@
                android:layout_height="wrap_content"
                android:layout_marginTop="270dp"
                android:text="DEPOSIT NOW"
+               android:fontFamily="@font/bloggersans2"
                android:background="@drawable/cards"
                android:layout_marginLeft="90dp"
                />

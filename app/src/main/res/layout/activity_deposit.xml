@@ -22,6 +22,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="5dp"
+                android:fontFamily="@font/bloggersans"
                 android:text="Sender Number" />
 
             <EditText
@@ -29,6 +30,7 @@
                 android:layout_height="60dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="25dp"
+                android:fontFamily="@font/bloggersans2"
                 android:background="@drawable/edittext_bkg"
                 android:drawablePadding="8dp"
                 android:hint="Phone"
@@ -39,6 +41,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="100dp"
+                android:fontFamily="@font/bloggersans"
                 android:text="Bkash:-01643894554"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -48,6 +51,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="130dp"
+                android:fontFamily="@font/bloggersans2"
                 android:text="Personal Payment Number(Sand Money Only)"
                 android:textSize="15sp"
                 android:textStyle="bold" />
@@ -55,6 +59,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/bloggersans"
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="180dp"
                 android:text="Amount" />
@@ -64,6 +69,7 @@
                 android:layout_height="60dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="200dp"
+                android:fontFamily="@font/bloggersans2"
                 android:background="@drawable/edittext_bkg"
                 android:drawablePadding="8dp"
                 android:hint="Amount"
@@ -73,6 +79,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="40dp"
+                android:fontFamily="@font/bloggersans"
                 android:layout_marginTop="260dp"
                 android:text="Trans ID" />
 
@@ -81,6 +88,7 @@
                 android:layout_height="60dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="280dp"
+                android:fontFamily="@font/bloggersans2"
                 android:background="@drawable/edittext_bkg"
                 android:drawablePadding="8dp"
                 android:hint="Trans id"
@@ -91,6 +99,7 @@
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="70dp"
+                android:fontFamily="@font/bloggersans"
                 android:layout_marginTop="350dp"
                 android:background="@drawable/cards"
                 android:gravity="center"

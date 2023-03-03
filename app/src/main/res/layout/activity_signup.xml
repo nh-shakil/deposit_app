@@ -31,8 +31,19 @@
                 android:layout_gravity="center"
                 android:id="@+id/signup_email"
                 android:layout_marginTop="30dp"
+                android:fontFamily="@font/bloggersans2"
                 android:padding="8dp"
                 android:hint="Phone"
+                android:drawablePadding="8dp"
+                android:background="@drawable/edittext_bkg"/>            <EditText
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:id="@+id/name"
+                android:layout_marginTop="30dp"
+            android:fontFamily="@font/bloggersans2"
+                android:padding="8dp"
+                android:hint="Name"
                 android:drawablePadding="8dp"
                 android:background="@drawable/edittext_bkg"/>
 
@@ -44,6 +55,7 @@
                 android:layout_marginTop="20dp"
                 android:padding="8dp"
                 android:hint="Password"
+                android:fontFamily="@font/bloggersans2"
                 android:inputType="textPassword"
                 android:drawablePadding="8dp"
                 android:background="@drawable/edittext_bkg"/>
@@ -55,6 +67,7 @@
                 android:id="@+id/signup_confirm"
                 android:layout_marginTop="20dp"
                 android:padding="8dp"
+                android:fontFamily="@font/bloggersans2"
                 android:hint="Confirm Password"
                 android:inputType="textPassword"
                 android:drawablePadding="8dp"
@@ -66,6 +79,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="30dp"
                 android:id="@+id/signup_button"
+                android:fontFamily="@font/bloggersans2"
                 android:textSize="18sp"
                 android:text="Signup"
                 app:cornerRadius = "30dp"/>
