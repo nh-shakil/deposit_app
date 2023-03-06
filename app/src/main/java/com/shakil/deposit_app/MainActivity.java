@@ -6,11 +6,13 @@ import androidx.cardview.widget.CardView;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
 
     CardView card1,card2,card3,card4,card5,card6;
+    Button ads;
 
 
     @Override
@@ -24,6 +26,18 @@ public class MainActivity extends AppCompatActivity {
         card4 = findViewById(R.id.card4);
         card5 = findViewById(R.id.card5);
         card6 = findViewById(R.id.card6);
+
+        ads = findViewById(R.id.ads);
+
+
+        ads.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(MainActivity.this, TaskActivity.class);
+                startActivity(intent);
+            }
+        });
 
         card1.setOnClickListener(new View.OnClickListener() {
             @Override
